@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+pointer-events: none;
+}
+
+#status
+{
+font-size: 18px;
+}
+canvas
+{
+    margin-top: 50px;
+    border: 10px ridge pink;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px pink;
+}
+a {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    pointer-events: initial;
+    text-decoration: none;
+}
+a:hover{
+    background:linear-gradient(-45deg,#ba21ba,pink,blue);
+    text-decoration: none;
+}
